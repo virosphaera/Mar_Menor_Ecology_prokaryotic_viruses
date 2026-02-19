@@ -21,7 +21,7 @@ MIN_VOTUS_PER_ECOSYS <- 5
 # Define paths
 # ─────────────────────────────────────────────────────────
 input_dir <- "HOSTS"
-abundance_file <- file.path(input_dir, "Med-MM_vOTU_abund_table.csv")
+abundance_file <- file.path(input_dir, "Med-MM_vOTU_abund_hosts_table.csv")
 out_dir <- "HOSTS"
 
 # ─────────────────────────────────────────────────────────
@@ -355,3 +355,4 @@ params_export <- tibble::tibble(
 )
 
 output_dir <- "C:/Users/guillermo.dominguez/Documents/EPRA/VIRUS_MAR_MENOR/MM_prok_viruses_dynamics_and_comparison_w_Medit/OUTPUTS/H
+
