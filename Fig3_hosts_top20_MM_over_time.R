@@ -14,7 +14,7 @@ library(purrr)
 # ===========================================================================
 # Define paths
 # ===========================================================================
-input_file <- "MM_vOTU_abund_table.csv"
+input_file <- "MM_vOTU_abund_hosts_table.csv"
 env_file <- "environmental_variables.csv"
 out_dir <- "HOSTS"
 
@@ -176,3 +176,4 @@ write_csv2(corr_results,
 sig_corr <- corr_results %>% filter(P_adjusted <= 0.05)
 write_csv2(sig_corr,
            "spearman_significant_results.csv")
+
